@@ -1,0 +1,1 @@
+cmd_/home/amarnathp/DRIVERS/hello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/amarnathp/DRIVERS/hello.ko /home/amarnathp/DRIVERS/hello.o /home/amarnathp/DRIVERS/hello.mod.o
